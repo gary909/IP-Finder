@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #2b2b2b;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 5px solid #09ff00;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #09ff00;
+}
+
+h1 {
+  font-size: 3em;
+  color: #09ff00;
+  margin-bottom: 20px;
+}
+
+#ip-container {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#ip-address {
+  font-size: 1.5em;
+  color: #09ff00;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  #ip-address {
+    font-size: 1.2em;
+  }
+}
